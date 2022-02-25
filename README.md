@@ -1,1 +1,1 @@
-# library_synthesizer
+# Library Synthesizer
