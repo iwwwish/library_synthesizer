@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<MDocument>
+  <MChemicalStruct>
+    <molecule molID="m1">
+      <propertyList>
+        <property dictRef="MolWeight" title="MolWeight">
+          <scalar>225.2648</scalar>
+        </property>
+        <property dictRef="Formula" title="Formula">
+          <scalar>C6H4BCl3O2</scalar>
+        </property>
+      </propertyList>
+      <atomArray
+          atomID="a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12"
+          elementType="C C C C C C Cl B O O Cl Cl"
+          mrvMap="0 0 0 0 4 0 0 1 2 3 0 0"
+          attachmentPoint="0 0 0 0 1 0 0 0 0 0 0 0"
+          x2="-2.0005235056751025 -2.0005235056751025 -0.6668411685583675 0.6668411685583675 0.6668411685583675 -0.6668411685583675 -3.334205842791837 2.0005235056751025 3.334205842791837 2.0005235056751025 -3.334205842791837 2.0005235056751025"
+          y2="0.0 -1.5399888618595186 -2.3099832927892776 -1.5399888618595186 0.0 0.7699944309297593 0.7699944309297593 0.7699944309297593 0.0 2.3099832927892776 -2.3099832927892776 -2.3099832927892776"
+          />
+      <bondArray>
+        <bond atomRefs2="a6 a1" order="1" />
+        <bond atomRefs2="a1 a2" order="2" />
+        <bond atomRefs2="a1 a7" order="1" />
+        <bond atomRefs2="a3 a4" order="2" />
+        <bond atomRefs2="a5 a8" order="1" />
+        <bond atomRefs2="a8 a9" order="1" />
+        <bond atomRefs2="a4 a5" order="1" />
+        <bond atomRefs2="a8 a10" order="1" />
+        <bond atomRefs2="a2 a3" order="1" />
+        <bond atomRefs2="a2 a11" order="1" />
+        <bond atomRefs2="a5 a6" order="2" />
+        <bond atomRefs2="a4 a12" order="1" />
+      </bondArray>
+    </molecule>
+  </MChemicalStruct>
+</MDocument>

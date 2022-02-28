@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<MDocument bondSetLineThickness="0:0.125">
+  <MChemicalStruct>
+    <molecule title="2,5-dimethoxybenzylamine" molID="m1">
+      <propertyList>
+        <property dictRef="MolWeight" title="MolWeight">
+          <scalar>167.205</scalar>
+        </property>
+        <property dictRef="Formula" title="Formula">
+          <scalar>C9H13NO2</scalar>
+        </property>
+      </propertyList>
+      <atomArray
+          atomID="a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12"
+          elementType="N C C C C C C C O C O C"
+          mrvMap="2 1 0 0 0 0 0 0 0 0 0 0"
+          attachmentPoint="0 1 0 0 0 0 0 0 0 0 0 0"
+          x2="3.08 1.54 0.77 1.54 0.77 -0.77 -1.54 -0.77 -3.08 -3.8500000000000005 3.08 3.8500000000000005"
+          y2="2.0005066666666673 2.0005066666666673 0.6669600000000001 -0.6667733333333334 -2.0005066666666673 -2.0005066666666673 -0.6667733333333334 0.6669600000000001 -0.6667733333333334 -2.0005066666666673 -0.6667733333333334 -2.0005066666666673"
+          />
+      <bondArray>
+        <bond atomRefs2="a2 a3" order="1" />
+        <bond atomRefs2="a3 a4" order="1" />
+        <bond atomRefs2="a4 a5" order="2" />
+        <bond atomRefs2="a5 a6" order="1" />
+        <bond atomRefs2="a6 a7" order="2" />
+        <bond atomRefs2="a7 a8" order="1" />
+        <bond atomRefs2="a3 a8" order="2" />
+        <bond atomRefs2="a1 a2" order="1" />
+        <bond atomRefs2="a9 a10" order="1" />
+        <bond atomRefs2="a7 a9" order="1" />
+        <bond atomRefs2="a11 a12" order="1" />
+        <bond atomRefs2="a4 a11" order="1" />
+      </bondArray>
+    </molecule>
+  </MChemicalStruct>
+</MDocument>

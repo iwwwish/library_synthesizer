@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<MDocument bondSetLineThickness="0:0.125">
+  <MChemicalStruct>
+    <molecule title="2-(Trifluoromethyl)-benzylamine" molID="m1">
+      <propertyList>
+        <property dictRef="MolWeight" title="MolWeight">
+          <scalar>175.151</scalar>
+        </property>
+        <property dictRef="Formula" title="Formula">
+          <scalar>C8H8F3N</scalar>
+        </property>
+      </propertyList>
+      <atomArray
+          atomID="a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12"
+          elementType="N C C C C C C C C F F F"
+          mrvMap="2 1 0 0 0 0 0 0 0 0 0 0"
+          attachmentPoint="0 1 0 0 0 0 0 0 0 0 0 0"
+          x2="-0.77 0.0 -0.77 0.0 -0.77 -2.3100000000000005 -3.08 -2.3100000000000005 1.54 1.54 3.08 1.54"
+          y2="2.770506666666667 1.4367733333333337 0.10322666666666669 -1.2305066666666669 -2.5642400000000003 -2.5642400000000003 -1.2305066666666669 0.10322666666666669 -1.2305066666666669 0.3094933333333334 -1.2305066666666669 -2.770506666666667"
+          />
+      <bondArray>
+        <bond atomRefs2="a2 a3" order="1" />
+        <bond atomRefs2="a3 a4" order="1" />
+        <bond atomRefs2="a4 a5" order="2" />
+        <bond atomRefs2="a5 a6" order="1" />
+        <bond atomRefs2="a6 a7" order="2" />
+        <bond atomRefs2="a7 a8" order="1" />
+        <bond atomRefs2="a3 a8" order="2" />
+        <bond atomRefs2="a1 a2" order="1" />
+        <bond atomRefs2="a9 a10" order="1" />
+        <bond atomRefs2="a9 a11" order="1" />
+        <bond atomRefs2="a9 a12" order="1" />
+        <bond atomRefs2="a4 a9" order="1" />
+      </bondArray>
+    </molecule>
+  </MChemicalStruct>
+</MDocument>

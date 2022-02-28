@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<MDocument>
+  <MChemicalStruct>
+    <molecule molID="m1">
+      <propertyList>
+        <property dictRef="MolWeight" title="MolWeight">
+          <scalar>203.0023</scalar>
+        </property>
+        <property dictRef="Formula" title="Formula">
+          <scalar>C10H10BNO3</scalar>
+        </property>
+      </propertyList>
+      <atomArray
+          atomID="a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15"
+          elementType="C C N C O B C O O C C C C C C"
+          mrvMap="4 0 0 0 0 1 0 2 3 0 0 0 0 0 0"
+          attachmentPoint="1 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+          x2="-1.1501569282856132 0.38983308277864054 0.86428881577738 -1.6322927001278575 -0.38016192275348637 -1.9242763991225853 1.1562725147721078 -3.4651197478361175 -1.1505835971102525 -3.0944867621662393 0.38343305040905323 2.690146939349867 3.4651197478361175 1.1505835971102525 2.6905736081745064"
+          y2="0.8194885891902689 0.8194885891902689 2.289504913013701 2.289504913013701 3.1840872153404614 -0.5208204119428609 -0.520109297235129 -0.5185448448781187 -1.8551560495310424 2.763960646012441 -1.846480450096713 -0.5093003536776036 -1.8419293159672285 -3.1785405206201522 -3.1840872153404614"
+          />
+      <bondArray>
+        <bond atomRefs2="a2 a1" order="1" />
+        <bond atomRefs2="a3 a2" order="2" />
+        <bond atomRefs2="a4 a1" order="2" />
+        <bond atomRefs2="a5 a4" order="1" />
+        <bond atomRefs2="a6 a1" order="1" />
+        <bond atomRefs2="a7 a2" order="1" />
+        <bond atomRefs2="a8 a6" order="1" />
+        <bond atomRefs2="a9 a6" order="1" />
+        <bond atomRefs2="a10 a4" order="1" />
+        <bond atomRefs2="a11 a7" order="1" />
+        <bond atomRefs2="a12 a7" order="2" />
+        <bond atomRefs2="a13 a12" order="1" />
+        <bond atomRefs2="a14 a11" order="2" />
+        <bond atomRefs2="a15 a13" order="2" />
+        <bond atomRefs2="a5 a3" order="1" />
+        <bond atomRefs2="a15 a14" order="1" />
+      </bondArray>
+    </molecule>
+  </MChemicalStruct>
+</MDocument>

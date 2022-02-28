@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<MDocument bondSetLineThickness="0:0.125">
+  <MChemicalStruct>
+    <molecule title="2-Ethoxybenzyl-amine" molID="m1">
+      <propertyList>
+        <property dictRef="MolWeight" title="MolWeight">
+          <scalar>151.2056</scalar>
+        </property>
+        <property dictRef="Formula" title="Formula">
+          <scalar>C9H13NO</scalar>
+        </property>
+      </propertyList>
+      <atomArray
+          atomID="a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11"
+          elementType="N C C C C C C C O C C"
+          mrvMap="2 1 0 0 0 0 0 0 0 0 0"
+          attachmentPoint="0 1 0 0 0 0 0 0 0 0 0"
+          x2="-1.154906666666667 -0.38490666666666673 -1.154906666666667 -0.38490666666666673 -1.154906666666667 -2.694906666666667 -3.465093333333334 -2.694906666666667 1.154906666666667 1.9249066666666668 3.465093333333334"
+          y2="2.6672800000000003 1.3335466666666669 0.0 -1.3337333333333337 -2.6672800000000003 -2.6672800000000003 -1.3337333333333337 0.0 -1.3337333333333337 -2.6672800000000003 -2.6672800000000003"
+          />
+      <bondArray>
+        <bond atomRefs2="a2 a3" order="1" />
+        <bond atomRefs2="a3 a4" order="1" />
+        <bond atomRefs2="a4 a5" order="2" />
+        <bond atomRefs2="a5 a6" order="1" />
+        <bond atomRefs2="a6 a7" order="2" />
+        <bond atomRefs2="a7 a8" order="1" />
+        <bond atomRefs2="a3 a8" order="2" />
+        <bond atomRefs2="a1 a2" order="1" />
+        <bond atomRefs2="a10 a11" order="1" />
+        <bond atomRefs2="a9 a10" order="1" />
+        <bond atomRefs2="a4 a9" order="1" />
+      </bondArray>
+    </molecule>
+  </MChemicalStruct>
+</MDocument>

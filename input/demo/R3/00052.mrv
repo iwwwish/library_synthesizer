@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<MDocument>
+  <MChemicalStruct>
+    <molecule molID="m1">
+      <propertyList>
+        <property dictRef="MolWeight" title="MolWeight">
+          <scalar>128.9454</scalar>
+        </property>
+        <property dictRef="Formula" title="Formula">
+          <scalar>C3H4BNO2S</scalar>
+        </property>
+      </propertyList>
+      <atomArray
+          atomID="a1 a2 a3 a4 a5 a6 a7 a8"
+          elementType="C C N C S B O O"
+          mrvMap="0 4 0 0 0 1 2 3"
+          attachmentPoint="0 1 0 0 0 0 0 0"
+          x2="0.15310895717664139 0.17585193224797274 1.649677941781213 2.531374350350148 1.612111420458032 -1.0567360917072173 -1.023230815932488 -2.531374350350148"
+          y2="-1.7556764505958111 -0.2146368272356896 0.23839511369413396 -1.0197787572163037 -2.248102473345619 0.7084842859274559 2.248102473345619 0.2645901474816495"
+          />
+      <bondArray>
+        <bond atomRefs2="a1 a2" order="2" />
+        <bond atomRefs2="a2 a3" order="1" />
+        <bond atomRefs2="a3 a4" order="2" />
+        <bond atomRefs2="a4 a5" order="1" />
+        <bond atomRefs2="a1 a5" order="1" />
+        <bond atomRefs2="a2 a6" order="1" />
+        <bond atomRefs2="a6 a7" order="1" />
+        <bond atomRefs2="a8 a6" order="1" />
+      </bondArray>
+    </molecule>
+  </MChemicalStruct>
+</MDocument>
